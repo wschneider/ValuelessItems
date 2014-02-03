@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+
+  "name": "Highlight Bad Items",
+  "description": "Highlights the names of all valueless neopets items on the quickstock page for easy discard",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.neopets.com/quickstock.phtml*"],
+      "js": ["highlight.js"]
+    }
+  ]
+
+}
